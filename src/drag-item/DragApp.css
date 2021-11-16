@@ -1,0 +1,43 @@
+.item {
+  background: white;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  padding: 10px;
+  /* text-align: center; */
+  width:230px;
+  background-color: gray;
+ 
+}
+
+.item:hover {
+  cursor: pointer;
+  background: gray;
+}
+
+.item__section {
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  align-items: center;
+}
+
+.item__section > div{
+  padding: 4px;
+}
+
+.item__image{
+  display: flex;
+  width: 20%;
+  height: 20%;
+  background-color:#FFFFFF;
+  border-radius: 50%;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 8px;
+}
+
+.item__text {
+  width: 80%;
+  font-size: 12px;
+  color: #FFFFFF;
+}
